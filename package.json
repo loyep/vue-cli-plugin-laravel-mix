@@ -1,0 +1,27 @@
+{
+  "name": "vue-cli-plugin-laravel-mix",
+  "version": "1.0.1-beta.3",
+  "description": "Vue cli plugins for laravel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mwl@live.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loyep/vue-cli-plugin-laravel-mix.git"
+  },
+  "keywords": [
+    "vue-cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/loyep/vue-cli-plugin-laravel-mix/issues"
+  },
+  "homepage": "https://github.com/loyep/vue-cli-plugin-laravel-mix#readme",
+  "dependencies": {
+    "webpack": "^4.0.0",
+    "webpack-bundle-analyzer": "^3.6.1",
+    "webpack-manifest-plugin": "^2.2.0"
+  }
+}
