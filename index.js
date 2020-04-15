@@ -8,8 +8,8 @@ const modifyConfig = (config, fn) => {
 
 module.exports = (api, options) => {
   const defaultOptions = {
-    resourcePath: api.resolve('./resources/js'),
-    entry: api.resolve('resources/js/main.js')
+    resourcePath: api.resolve('./resources/assets'),
+    entry: api.resolve('resources/assets/app.js')
   }
 
   const pluginOptions = Object.assign({}, defaultOptions, (options.pluginOptions ? options.pluginOptions.laravel || {} : {}));
