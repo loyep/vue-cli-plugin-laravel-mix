@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-laravel-mix",
-  "version": "1.0.1-beta.3",
+  "version": "1.0.1-beta.4",
   "description": "Vue cli plugins for laravel",
   "main": "index.js",
   "scripts": {
